@@ -1,0 +1,7 @@
+mkdir ~/src
+cd ~/src
+git clone https://github.com/{userid}/{jksite}.git
+cd {jksite}
+git config --local user.email "{userid}@users.noreply.github.com"
+git config --local user.name "{userid}"
+git checkout -b gh-pages
